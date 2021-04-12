@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+  height: 100%;
+  font-family: "Kumbh Sans", sans-serif;
+}
+p {
+  font-weight: 400px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: hsl(227, 10%, 46%);
+  opacity: 0.8;
+}
+.top-img,
+.bottom-img {
+  position: absolute;
+}
+.top-img {
+  transform: translate(-30%, -50%);
+}
+.bottom-img {
+  transform: translate(70%, 40%);
+}
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 15px;
+  text-align: center;
+}
+.cover-img {
+  position: relative;
+  background-size: contain;
+  height: 130px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.profile-img {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  background-color: #fff;
+  left: 50%;
+  transform: translate(-50%, 80%);
+}
+.card-body {
+  padding: 20% 10% 6%;
+}
+.profile-name {
+  display: inline-flex;
+  flex: 70%;
+}
+.profile-age {
+  display: inline-flex;
+  flex: 30%;
+}
+.profile-location {
+  display: block;
+}
+.card-footer {
+  display: flex;
+  border-top: 1px solid hsl(0, 0%, 82%);
+  padding: 5% 10%;
+}
+.profile-followers,
+.profile-likes,
+.profile-photos {
+  display: inline-flex;
+  flex: 33.33%;
+  flex-direction: column;
+  text-align: center;
+}
+#name,
+#age,
+#followers,
+#likes,
+#photos {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 8%;
+  letter-spacing: normal;
+}
+#age {
+  padding-left: 5px;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+.attribution {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 12px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (max-width: 375px) {
+  .top-img {
+    transform: translate(-75%, -65%);
+  }
+  .bottom-img {
+    transform: translate(10%, 28%);
+  }
+}
