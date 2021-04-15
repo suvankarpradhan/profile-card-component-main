@@ -48,4 +48,4 @@ Learn about CSS ('transform' and 'position' in CSS). By doing this challenge, I 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/suvankarpradhan)
+- Frontend Mentor - [@suvankarpradhan](https://www.frontendmentor.io/profile/suvankarpradhan)
