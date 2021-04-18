@@ -25,7 +25,8 @@ This is a solution of frontendmentor's challenge. HTML and CSS areused to solve 
 
 ### Screenshot
 
-see screenshot folder.
+![desktop-img](./screenshot/desktop.JPG)
+![mobile-img](./screenshot/mobile.jpg)
 
 ### Links
 
